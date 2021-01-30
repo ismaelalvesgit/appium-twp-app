@@ -16,7 +16,7 @@ Feramentas Utilizadas para criação dos testes automatizados:
 ## Screenshots
 app view:
 
-<img src="https://raw.githubusercontent.com/ismaelalvesgit/appium-twp-app/master/app.png" width="400" height="600">
+<img src="https://raw.githubusercontent.com/ismaelalvesgit/appium-twp-app/master/app.png" width="400" height="800">
 
 ## Development
 
