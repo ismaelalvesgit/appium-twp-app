@@ -16,7 +16,7 @@ Feramentas Utilizadas para criação dos testes automatizados:
 ## Screenshots
 app view:
 
-<img src="https://raw.githubusercontent.com/ismaelalvesgit/appium-twp-app/master/app.png" width="800">
+<img src="https://raw.githubusercontent.com/ismaelalvesgit/appium-twp-app/master/app.png" width="400" height="400">
 
 ## Development
 
@@ -27,9 +27,8 @@ app view:
 ``` sh
 npm i appium -g
 npm i appium-doctor -g
-
-# Obs: E necessario que o [NodeJs](https://nodejs.org/en/) já esteja instalado em sua máquina
 ```
+Obs: E necessario que o [NodeJs](https://nodejs.org/en/) já esteja instalado em sua máquina
 
 #### 2) Instalação de dependencias do PYTHON
 1º download [RobotFramework](https://robotframework.org/) e [RobotFrameworkAppium](https://github.com/serhatbolsu/robotframework-appiumlibrary)
@@ -68,13 +67,13 @@ appium-doctor --version
   "automationName": "UiAutomator2",
   "platformName": "Android",
   "deviceName": "emulator-5554",
-  "app": "G:\\workspace\\teste\\Appium\\app\\twp.apk" // Caminho do path da sua maquina
+  "app": "G:\\workspace\\teste\\Appium\\app\\twp.apk" //Caminho do path da sua maquina
 }
 // Obs: Para o valor deviceName você deve pegar atravez do comando `adb devices` 
 // E NECESSÁRIO QUE ESTEJA EXECUTANDO UM EMULADOR DE DISPOSITIVO OU UM DISPOSITIVO REAL ESTEJA CONECTADO A SUA MAQUINA
 ```
 
-### 8) Executar A pilha de testes
+### 8) Executar a pilha de testes
 ``` sh
 robot -d ./logs test/*.robot
 ```
